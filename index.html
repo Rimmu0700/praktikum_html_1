@@ -1,0 +1,99 @@
+<!--NOTE MUNGKIN ADA BEBERAPA CODE YANG TIDAK SESUAI KARNA SAAT MENCOBA ERROR DAN SAYA MEMODIFIKASINYA BERDASARKAN CODINGAN TERAKHIR SAYA-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Pribadi</title>
+</head>
+<body>
+    <!--Judul-->
+    <h1>Profil Mahasiswa</h1>
+    <p>Anda dapat menghubungi saya melalui email berikut : <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=armezadiandra@gmail.com" target="blank">Armezadiandra@gmail.com</a></p>
+    <p>Atau anda dapat menghubungi saya melalui instagram berikut : <a href="https://www.instagram.com/armeza__/" target="blank">@Armeza__</a></a></p>
+    <!--sub-->
+    <h2>Informasi Diri</h2>
+    <p>Berikut merupakan projek terakhir saya : </p>
+    <img src="asset/Project.jpg" alt="Ini merupakan website untuk membeli akun games" />
+
+    <!--hyperlink-->
+    <p>Untuk informasi lebih lanjut bisa mengunjungi <a href="https://itemku.com" target="blank">Itemku</a></p>
+
+
+    <!--Paragraf bio-->
+    <p> Saya merupakan mahasiswa yang sedang mempelajari Ilmu Komputer di Universitas pendidikan nasional. saya tertarik dalam perkembangan WEB</p>
+    
+    <!--Unordered list-->
+    <h2>Hobi Saya</h2>
+    <ul>
+        <li> Bermain game</li>
+        <li> Koleksi Trading Card Game</li>
+        <li> Sim racing</li>
+    </ul>
+    <!--Ordered List-->
+    <h2>Riwayat Pendidikan</h2>
+    <ol>
+        <li> SD Immanuel</li>
+        <li>SMPK Thomas Aquino</li>
+        <li>SMK Negeri 1 Denpasar</li>
+    </ol>
+    <!--Tabel jadwal kuluah-->
+    <h2>Jadwal Kuliah</h2>
+    <table border="1">
+        <tr>
+            <th>Hari</th>
+            <th>Mata Kuliah</th>
+            <th>Jam</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>Pengantar kecerdasan buatan</td>
+            <td>08.00 - 10.30</td>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>Konfigurasi dan adminitrasi jaringan</td>
+            <td>12.30 - 15.50</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Pendidikan anti korupsi</td>
+            <td>08.00 - 10.00</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Komputasi Cloud</td>
+            <td>12.30 - 15.00</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>keamanan cyber</td>
+            <td>09.55 - 12.25</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>Pemrograman Web</td>
+            <td>12.30 - 15.50</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>Metodologi penilitian dan publikasi ilmiah</td>
+            <td>08.00 - 10.30</td>
+        </tr>
+
+        <!--Formulir kontak-->
+        <h2>Formulir Kontak</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nama Lengkap : </label>
+            <input type="text" id="name" name="fullname" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="emailaddr" required><br><br>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="usermessage" rows="4" required></textarea><br><br>
+            <button type="submit">Kirim</button>
+        </form>
+    </table>
+</body>
+</html>
